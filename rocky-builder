@@ -1,8 +1,8 @@
 #!/bin/bash
 LOCALHOME=$(echo ~)
 STAMP=$(date +%y%m%d%H%M)
-DISTRO=centos
-VERSION=7
+DISTRO=rocky
+VERSION=10
 IMAGE=jpuhlman/$DISTRO-builder:v$VERSION
 PULL_IMAGE="1"
 MOCK_REQUIREMENTS="--privileged \
